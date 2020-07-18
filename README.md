@@ -16,3 +16,10 @@ There are 10 different options for responses.  This is a WIP.  It works with gre
     print("I think this is a sneaker.")
     print("I think this is a bag.")
     print("I think this is an ankle boot")
+
+main.py: this file contains the construction of the model.  The model itself is saved as model.h5
+testImage.py: this is how you run test images.   
+First, run:  python testImage.py
+Next, it will ask you for an image.  The image must exist in the same directory.  Type the image name and hit enter.
+The model will guess what your image is.
+
